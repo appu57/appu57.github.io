@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/index.css">
+
+</head>
+
+<body>
+    <div class="heading">
+        <h2>Greetings to you Sir/Madam </h2>
+        <p>Below is the video that demonstrates the working of my E-commerce application built using MongoDb , ExpessJs
+            , Angular , NodeJs</p>
+        <a href="#section">Click here to view description of the application</a>
+
+    </div>
+    <video width="520" height="540" controls autoplay>
+        <!-- <source src="./assets/mainja-1.mp4" type="video/mp4"> -->
+        <source src="./assets/images/mainja_om.mp4" type="video/mp4">
+    </video>
+    <section>
+        <div id="section">
+
+            <h2>Description</h2>
+            <div class="intro-container">
+                <p> A. Introduction [0:00 - 0:30]</p>
+                <ol>
+                    <li>This clip talks about the frameworks I have used to implement the E-commerce application</li>
+                    <li>In addition to above,I have also added few points describing the functionality of authgaurds
+                        that restricts the user from navigating to the home page without logging in into the application</li>
+                        <a href="#">Top</a>
+
+                </ol>
+
+            </div>
+            <div class="intro-container">
+                <p>B. User LogIn/SignUp activities [0:30 - 0:52]</p>
+                <ol>
+                    <li> A brief description about user logIn/SignUp activity.To begin with, the user first registers
+                        into the application using the signup page </li>
+                    <li>A flash message is popped up if the registration is successful.Now the user enters the log in
+                        page
+                    </li>
+                    <li>In log in page the user is supposed to enter the email and password he/she used while signing up
+                        once the signup and login credentials matches ,authentication is successful token is generated
+                        using jsonwebtoken
+                        and is navigated to the home page. <a href="#">Top</a>
+
+                    </li>
+                </ol>
+            </div>
+            <div class="intro-container">
+                <p>C. Home Page [0:52 - 1:27]</p>
+                <ol>
+                    <li> To start with, here I have highlighted about the home page structure </li>
+                    <li>It contains a image slider that attracts the user attention.It also includes the way 
+                        products from model schema is organised in the home page.Displaying the products according to its
+                        category[For eg.Fruits,Vegetables]</li>
+                    <li>Buttons that are visible on the home page and its uses.Here, I have spoken about the cart button 
+                        which navigates the user into the cart page and shows various product that would be added to cart by the user
+                        <a href="#">Top</a>
+
+                    </li>
+                </ol>
+            </div>
+            <div class="intro-container">
+                <p>D. Facilities that my application provides for the user [1:28 - 2:36]</p>
+                <ol>
+                    <li> User can view the product , delete the product from cart , add the product to the cart,
+                         view the order summary and confirm the order </li>
+                    <li>Once the user views the product and wants to buy the oroduct he/she can add that product to cart by just
+                        pressing on add to cart button .The user can add/delete product from the cart.
+                    </li>
+                    <li>In the cart page , the user can check all the products he/she has added and can also delete from the cart.In addition
+                        user can also view order summary and confirm the order. 
+                    </li>
+                    <li>For the user,the "admin only" button is disabled and is enabled only for admin.Because by default
+                         the admin row in the document collection for the user is set as false.
+                         <a href="#">Top</a>
+                    </li>
+                </ol>
+            </div>
+            <div class="intro-container">
+                <p>E. Authorities that an admin can access from my application [2:36 - 4:50]</p>
+                <ol>
+                    <li> As explained previously, by default "admin" row in the document collections
+                        is set as false for any sort of signup/login. The person whose login credentials matches with the
+                        credentials saved in my config.js and the model is now termed as an admin.That is due to the "Admin" row
+                         in the collection is automatically set to true when credentials matches.
+                         </li>
+                    <li>Here the admin can add new products , delete the existing product and edit the details of the existing product
+                    </li>
+                    <li> "Admin only" button is enabled now because the person currently using the application is an admin</li>
+                    <li>Here for illustration I have added a new product that is "POMOGRANATE" to demonstrate the functionality</li>
+                    <li>It also includes the updating of the existing product details, here I have updated the price and description</li>
+                    <li>Admin can also delete the product and I have deleted the "Toor Dal"                          <a href="#">Top</a>
+                    </li>
+                </ol>
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>

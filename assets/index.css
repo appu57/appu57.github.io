@@ -1,0 +1,21 @@
+.heading{
+    text-align: center;
+}
+
+video{
+    width: 85%;
+    height: 45%;
+    margin-top: 10px;
+    margin-left: 10%;
+}
+.intro-container{
+    margin-top: 50px;
+}
+.intro-container p
+{
+    font-weight:bold;
+}
+
+#section{
+    padding: 10px;
+}
